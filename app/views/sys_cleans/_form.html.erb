@@ -1,0 +1,29 @@
+<%= form_for(@sys_clean) do |f| %>
+  <% if @sys_clean.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@sys_clean.errors.count, "error") %> prohibited this sys_clean from being saved:</h2>
+
+      <ul>
+      <% @sys_clean.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :trash_bin_contents %><br />
+    <%= f.text_area :trash_bin_contents %>
+  </div>
+  <div class="field">
+    <%= f.label :new_packages %><br />
+    <%= f.text_area :new_packages %>
+  </div>
+  <div class="field">
+    <%= f.label :sys_op_id %><br />
+    <%= f.number_field :sys_op_id %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

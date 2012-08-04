@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  trash_bin_contents: MyText
+  new_packages: MyText
+  sys_op_id: 1
+
+two:
+  trash_bin_contents: MyText
+  new_packages: MyText
+  sys_op_id: 1

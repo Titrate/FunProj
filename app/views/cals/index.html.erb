@@ -1,0 +1,21 @@
+<h1>Listing cals</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @cals.each do |cal| %>
+  <tr>
+    <td><%= link_to 'Show', cal %></td>
+    <td><%= link_to 'Edit', edit_cal_path(cal) %></td>
+    <td><%= link_to 'Destroy', cal, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Cal', new_cal_path %>

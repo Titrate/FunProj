@@ -1,0 +1,29 @@
+<h1>Listing sys_checks</h1>
+
+<table>
+  <tr>
+    <th>Hd usage</th>
+    <th>Mem usage</th>
+    <th>Time running</th>
+    <th>Sys op</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sys_checks.each do |sys_check| %>
+  <tr>
+    <td><%= sys_check.hd_usage %></td>
+    <td><%= sys_check.mem_usage %></td>
+    <td><%= sys_check.time_running %></td>
+    <td><%= sys_check.sys_op_id %></td>
+    <td><%= link_to 'Show', sys_check %></td>
+    <td><%= link_to 'Edit', edit_sys_check_path(sys_check) %></td>
+    <td><%= link_to 'Destroy', sys_check, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Sys check', new_sys_check_path %>

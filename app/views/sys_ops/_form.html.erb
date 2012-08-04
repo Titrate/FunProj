@@ -1,0 +1,25 @@
+<%= form_for(@sys_op) do |f| %>
+  <% if @sys_op.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@sys_op.errors.count, "error") %> prohibited this sys_op from being saved:</h2>
+
+      <ul>
+      <% @sys_op.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :start_time_column %><br />
+    <%= f.datetime_select :start_time_column %>
+  </div>
+  <div class="field">
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

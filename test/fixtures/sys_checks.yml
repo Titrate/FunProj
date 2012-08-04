@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  hd_usage: MyString
+  mem_usage: MyString
+  time_running: MyString
+  sys_op_id: 1
+
+two:
+  hd_usage: MyString
+  mem_usage: MyString
+  time_running: MyString
+  sys_op_id: 1

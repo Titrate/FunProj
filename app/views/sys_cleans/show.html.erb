@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Trash bin contents:</b>
+  <%= @sys_clean.trash_bin_contents %>
+</p>
+
+<p>
+  <b>New packages:</b>
+  <%= @sys_clean.new_packages %>
+</p>
+
+<p>
+  <b>Sys op:</b>
+  <%= @sys_clean.sys_op_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_sys_clean_path(@sys_clean) %> |
+<%= link_to 'Back', sys_cleans_path %>

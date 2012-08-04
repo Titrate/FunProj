@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Hd usage:</b>
+  <%= @sys_check.hd_usage %>
+</p>
+
+<p>
+  <b>Mem usage:</b>
+  <%= @sys_check.mem_usage %>
+</p>
+
+<p>
+  <b>Time running:</b>
+  <%= @sys_check.time_running %>
+</p>
+
+<p>
+  <b>Sys op:</b>
+  <%= @sys_check.sys_op_id %>
+</p>
+
+
+<%= link_to 'Edit', edit_sys_check_path(@sys_check) %> |
+<%= link_to 'Back', sys_checks_path %>
