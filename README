@@ -1,0 +1,38 @@
+This project is a simple project using simple_calendar to serve up some events in a calendar view. These events are
+simple system checks. I have everything in place but I have not written the actual data collection methods yet. The
+program does let you make new events edit and update them. The edit feature will be removed when the methods for
+collecting data are complete.
+
+First things first, you need ruby and rails and you probably want to use rvm to manage these programs. If you are using
+MacOS, then you are going to have to look up a guide to getting ruby 1.9.3 with rails 3.*.* set up. If you are using
+linux, then google Matt Slay Ph.C. rails install. He links to an automated shell script for ubuntu or follow his guide
+if using a different flavor of linux.
+
+Once rails is set up, you need to fork this repository. Follow the github guides to accomplish this. Now you have the
+project. To see what it does, you can go to the project directory and run the following command.
+rails s
+This command starts the database server. You can then open your internet browser and type localhost:3000 into the url
+bar. This will bring you to the program home page. There you can follow the links.
+
+Cool, so you see what the program does, all 3 or so pages of it.
+
+Now for the nitty gritty. There are a lot of important files and folders. For brevity's sake I'm just going to discuss
+<project_root>/app/controllers, <project_root>/app/views, and <project_root>/app/models.
+
+Inside contollers and models you will see a buch of .rb files. These are ruby files. In the views folder you will see
+several *.html.erb and _form.html.erb files. These are html files with embedded ruby. In the .erb files you will see
+<% #Ruby Code Here %> and <%= #Ruby Code Here %> any code in eith of those tags will be evaluated as ruby. The %= one
+will output data to the screen.
+
+The controllers will, for the most part, have several methods edit, index, new, create, destroy... The goal is to keep
+the controller as slim as possible. Most of your business logic should go in the models. If you take a look at
+the sys_op.rb model you will notice the keyword <self> being used. This is pretty much the same as the keyword <this> in
+java.
+
+I have a lot more to say but you are busy as hell and if you make it through this then yay! I'll be happy to show you
+a lot more when you get back.
+
+P.S. I forgot to talk about text editors/IDE's. I recommend sublime text 2 for a text editor or rubymine if you want an
+IDE. Sublime is free? Kinda, they want you to buy it if you are going to use it. However, there is no expiration date on
+the trial. Rubymine has a 30 day trial. I recommend using sublime unless you actually have time to write code. Rubymine
+is awesome!

@@ -2,48 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6dd2b0c-7ef5-4dc2-acce-c99fb9ebe94c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/fun_proj.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/titrate.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/install_gems.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cals/_form.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cals/edit.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cals/new.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/cals/show.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/sys_ops/index.html.erb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/db/migrate/20120804190534_create_sys_checks.rb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/cals.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/cals.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/cals_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/cals_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/sys_ops_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/sys_ops_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/cal.rb" afterPath="$PROJECT_DIR$/app/models/cal.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sys_check.rb" afterPath="$PROJECT_DIR$/app/models/sys_check.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sys_clean.rb" afterPath="$PROJECT_DIR$/app/models/sys_clean.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/sys_op.rb" afterPath="$PROJECT_DIR$/app/models/sys_op.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cals/index.html.erb" afterPath="$PROJECT_DIR$/app/views/cals/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_checks/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_checks/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_checks/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_checks/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_checks/show.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_checks/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_cleans/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_cleans/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_cleans/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_cleans/edit.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_cleans/index.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_cleans/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_cleans/show.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_cleans/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/sys_ops/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/sys_ops/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120804190536_create_sys_cleans.rb" afterPath="$PROJECT_DIR$/db/migrate/20120804190536_create_sys_cleans.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
     </list>
     <ignored path="fun_proj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -80,19 +40,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_clean.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="sys_clean.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/sys_clean.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="36" selection-start="138" selection-end="138" vertical-scroll-proportion="0.08082409">
+            <state line="13" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.rdoc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="37" column="11" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.9328063">
               <folding />
             </state>
           </provider>
@@ -119,7 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/sys_ops/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/sys_ops_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/sys_op.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120804190534_create_sys_checks.rb" />
@@ -135,6 +94,7 @@
         <option value="$PROJECT_DIR$/app/views/sys_cleans/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/models/sys_clean.rb" />
         <option value="$PROJECT_DIR$/app/models/sys_check.rb" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -607,6 +567,11 @@
       <created>1344110331125</created>
       <updated>1344110331125</updated>
     </task>
+    <task id="LOCAL-00001" summary="Here is a simple working (kinda) app.">
+      <created>1344159866298</created>
+      <updated>1344159866298</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -633,17 +598,17 @@
     <frame x="65" y="24" width="1837" height="912" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2169249" sideWeight="0.493579" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2169249" sideWeight="0.493579" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32896304" sideWeight="0.493579" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.49806523" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15187046" sideWeight="0.7830751" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15187046" sideWeight="0.6340882" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990665" sideWeight="0.49585405" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2169249" sideWeight="0.5025126" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3659118" sideWeight="0.493579" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3659118" sideWeight="0.50474596" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3659118" sideWeight="0.4913456" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905483" sideWeight="0.4936429" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" x="168" y="208" width="1322" height="426" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -708,13 +673,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120805082504_add_table_sys_check.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="281" selection-end="281" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="80" selection-start="733" selection-end="733" vertical-scroll-proportion="0.36956522">
@@ -799,13 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.rdoc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/sys_checks/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="44" selection-start="377" selection-end="377" vertical-scroll-proportion="-15.692307">
@@ -815,7 +766,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/sys_clean.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="36" selection-start="138" selection-end="138" vertical-scroll-proportion="0.08082409">
+        <state line="13" column="0" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.rdoc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-4.6363635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="11" selection-start="2736" selection-end="2736" vertical-scroll-proportion="0.9328063">
           <folding />
         </state>
       </provider>
