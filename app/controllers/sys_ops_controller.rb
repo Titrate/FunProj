@@ -1,14 +1,4 @@
 class SysOpsController < ApplicationController
-  # GET /sys_ops
-  # GET /sys_ops.json
-  def index
-    @sys_ops = SysOp.all
-
-    respond_to do |format|
-      format.html # index.html.erb
-      format.json { render json: @sys_ops }
-    end
-  end
 
   # GET /sys_ops/1
   # GET /sys_ops/1.json
@@ -24,7 +14,8 @@ class SysOpsController < ApplicationController
   # GET /sys_ops/new
   # GET /sys_ops/new.json
   def new
-    @sys_op = SysOp.new
+    @time = Time.now
+    @sys_op = SysOp.new(:start_time_column => :@time)
 
     respond_to do |format|
       format.html # new.html.erb

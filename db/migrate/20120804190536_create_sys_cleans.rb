@@ -7,5 +7,6 @@ class CreateSysCleans < ActiveRecord::Migration
 
       t.timestamps
     end
+    add_index :sys_cleans, :sys_op_id
   end
 end
